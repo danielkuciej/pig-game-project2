@@ -11,7 +11,7 @@ const player1 = document.querySelector('.player--1')
 
 const btnRollDice = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
-const btnBewGame = document.querySelector('.btn--new');
+const btnNewGame = document.querySelector('.btn--new');
 
 //Starting conditions
 let scores, currentScore, activePlayer, playing;
@@ -97,6 +97,6 @@ btnHold.addEventListener('click', function() {
 });
 
 //New Game button functionality
-btnBewGame.addEventListener('click', function() {
+btnNewGame.addEventListener('click', function() {
     initialization();
 });
